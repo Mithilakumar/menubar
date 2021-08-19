@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                 list-style-type: none;
+                 margin:0px;
+                 padding:0px;
+                 background-color: bisque;
+                 overflow:hidden;                
+            }
+            li{
+                float: left;
+            }
+            li a {
+                display:inline-block;
+                text-decoration: none;
+                font-size:large;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            li a:hover {
+                background-color: rgb(208, 237, 245);
+                color: black;
+            }
+           
+            li.dp{
+                display:inline-block;
+            }
+            .dp{
+                display:none;
+                position:absolute;
+                min-width:80px;
+                background-color: cornsilk;
+            }
+            .dp a{
+                text-decoration: none;
+                display:block;
+                text-align: left;
+                padding:12px 12px;
+                font-size:large;
+            }
+            .home:hover .dp{
+                display:block;
+            }
+            hl {
+                color: crimson;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+          <li class="home"><a href="#home" >Home</a>
+                    <div class="dp">
+                        <a href="#indianairforce" >Airforce</a>
+                        <a href="#indianarmy" >Army</a>
+                        <a href="#indiannavy" >Navy</a>
+                    </div></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <h1>
+            This assignment is to demonstrate the menu bar in css and HTML.
+        </h1>        
+    </body>
+</html>
